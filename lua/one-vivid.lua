@@ -15,7 +15,7 @@ local sto = s.standout
 local no = s.NONE
 local v = vim
 
-v.g.colors_name = 'onebuddy'
+v.g.colors_name = 'one-vivid'
 if v.o.background == 'dark' then
     Color.new('mono_1', "#abb2bf")
     Color.new('mono_2', "#828997")
