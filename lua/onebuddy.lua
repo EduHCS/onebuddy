@@ -15,7 +15,7 @@ local sto = s.standout
 local no = s.NONE
 local v = vim
 
-v.g.colors_name = 'one-vivid'
+v.g.colors_name = 'onebuddy'
 if v.o.background == 'dark' then
     Color.new('mono_1', "#abb2bf")
     Color.new('mono_2', "#828997")
@@ -203,7 +203,7 @@ Group.new('Structure',      c.hue_6_2,       c.none,      no)
 Group.new('Typedef',        c.hue_6_2,       c.none,      no)
 Group.new('Special',        c.hue_6,         c.none,      no)
 Group.new('SpecialChar',    c.none,          c.none,      no)
-Group.new('Tag',            c.hue_5,          c.none,      no)
+Group.new('Tag',            c.hue_5,         c.none,      no)
 Group.new('Delimiter',      c.none,          c.none,      no)
 Group.new('SpecialComment', c.none,          c.none,      no)
 Group.new('Debug',          c.none,          c.none,      no)
