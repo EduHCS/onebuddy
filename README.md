@@ -1,4 +1,4 @@
-# One-vivid
+# Onebuddy
 
 A modified version of [onebuddy](https://github.com/Th3Whit3Wolf/onebuddy)
 
@@ -14,14 +14,14 @@ You have to make sure you install [tjdevries/colorbuddy.vim](https://github.com/
 
 ```vim
 Plug 'tjdevries/colorbuddy.vim'
-Plug 'eduhcs/one-vivid'
+Plug 'eduhcs/onebuddy'
 
 " And then somewhere in your init.vim, to set the colorscheme
-lua require('colorbuddy').colorscheme('one-vivid')
+lua require('colorbuddy').colorscheme('onebuddy')
 ```
 
 ### Packer
 
 ```lua
-use {"eduhcs/one-vivid", requires = "tjdevries/colorbuddy.vim"}
+use {"eduhcs/onebuddy", requires = "tjdevries/colorbuddy.vim"}
 ```
